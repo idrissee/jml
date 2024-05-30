@@ -1,0 +1,70 @@
+.cadre-exterieur{
+    
+    
+    border-radius: 20px;
+    border: 3px solid aliceblue;
+    display: flex;
+    flex-direction: row;
+   
+}
+.cadre-interne{
+   
+    background-color: hsla(256, 72%, 46%, 1);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 50%;
+   
+   
+}
+body{
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.cadre-internee{
+  
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+.cadre1{
+    background-color: hsl(241, 81%, 54%);
+   border-radius: 20px;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 300px;
+}
+.cadre2{
+    width: 300px;
+    margin: 30px;
+    
+}
+.Continue{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 40px;
+    
+}
+.Continue:hover
+{
+    background-color: rgb(85, 175, 224);
+    color: black;
+    font-size: 20px;
+}
